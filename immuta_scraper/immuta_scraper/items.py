@@ -8,5 +8,10 @@ import scrapy
 
 class ImmutaScraperItem(scrapy.Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+
+    title = scrapy.Field()
+    location = scrapy.Field()
+    department = scrapy.Field()
+    url = scrapy.Field()
+    description = scrapy.Field()
+    requirements = scrapy.Field()
