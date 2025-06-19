@@ -31,6 +31,7 @@ wheels/
 .installed.cfg
 *.egg
 
+poetry.lock
 
 .python-version
 
@@ -43,4 +44,4 @@ wheels/
 # dotenv
 .env
 
-immuta_scraper/jobs.json
+job_scraper/jobs.json
