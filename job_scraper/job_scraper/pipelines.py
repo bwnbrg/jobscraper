@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class ImmutaScraperPipeline:
+class JobScraperPipeline:
     def process_item(self, item, spider):
         return item

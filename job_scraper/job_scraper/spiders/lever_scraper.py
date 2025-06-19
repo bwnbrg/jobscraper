@@ -3,8 +3,8 @@ import json
 from urllib.parse import urljoin
 import re
 
-class ImmutaJobsSpider(scrapy.Spider):
-    name = "immuta_jobs"
+class LeverJobsSpider(scrapy.Spider):
+    name = "lever_jobs"
     allowed_domains = ["immuta.com",
         "jobs.lever.co",
         "api.lever.co"]
@@ -53,4 +53,4 @@ class ImmutaJobsSpider(scrapy.Spider):
         }
 
 # To run this spider:
-# poetry run scrapy crawl immuta_jobs -o jobs.json
+# poetry run scrapy crawl lever_jobs -o jobs.json

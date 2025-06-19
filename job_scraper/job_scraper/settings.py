@@ -1,4 +1,4 @@
-# Scrapy settings for immuta_scraper project
+# Scrapy settings for lever_scraper project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "immuta_scraper"
+BOT_NAME = "lever_scraper"
 
-SPIDER_MODULES = ["immuta_scraper.spiders"]
-NEWSPIDER_MODULE = "immuta_scraper.spiders"
+SPIDER_MODULES = ["job_scraper.spiders"]
+NEWSPIDER_MODULE = "job_scraper.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "immuta_scraper (+http://www.yourdomain.com)"
+#USER_AGENT = "job_scraper (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "immuta_scraper.middlewares.ImmutaScraperSpiderMiddleware": 543,
+#    "job_scraper.middlewares.JobScraperSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "immuta_scraper.middlewares.ImmutaScraperDownloaderMiddleware": 543,
+#    "job_scraper.middlewares.JobScraperDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "immuta_scraper.pipelines.ImmutaScraperPipeline": 300,
+#    "job_scraper.pipelines.JobScraperPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

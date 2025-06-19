@@ -1,9 +1,9 @@
-# Scrapy settings for immuta_scraper project
+# Scrapy settings for job_scraper project
 
-BOT_NAME = "immuta_scraper"
+BOT_NAME = "job_scraper"
 
-SPIDER_MODULES = ["immuta_scraper.spiders"]
-NEWSPIDER_MODULE = "immuta_scraper.spiders"
+SPIDER_MODULES = ["job_scraper.spiders"]
+NEWSPIDER_MODULE = "job_scraper.spiders"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -13,7 +13,7 @@ DOWNLOAD_DELAY = 2
 
 # Configure item pipelines
 ITEM_PIPELINES = {
-   # "immuta_scraper.pipelines.ImmutaScraperPipeline": 300,
+   # "job_scraper.pipelines.JobScraperPipeline": 300,
 }
 
 # Set settings whose default value is deprecated to a future-proof value
